@@ -2003,7 +2003,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #82c8bf;
+  background: #ff700a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3212,7 +3212,7 @@ img:hover {
 }
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587404560907&di=fc651952ac0942b6e774651f1e7e8a2a&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0383cc055deafb90000015995b7db97.jpg");
+    background-image: url("/images/timg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 10% 10%;
