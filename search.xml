@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>docker修镜像仓库为阿里镜像</title>
-    <url>/2019/01/08/docker%E4%BF%AE%E6%94%B9%E9%95%9C%E5%83%8F/</url>
-    <content><![CDATA[<h3 id="docker修镜像仓库为阿里镜像仓库为阿里镜像"><a href="#docker修镜像仓库为阿里镜像仓库为阿里镜像" class="headerlink" title="docker修镜像仓库为阿里镜像仓库为阿里镜像"></a>docker修镜像仓库为阿里镜像仓库为阿里镜像</h3><h3 id="1-配置镜像加速器"><a href="#1-配置镜像加速器" class="headerlink" title="1. 配置镜像加速器"></a>1. 配置镜像加速器</h3><pre><code>配置镜像加速器针对Docker客户端版本大于 1.10.0 的用户您可以通过修改daemon配置文件/etc/docker/daemon.json来使用加速器</code></pre> <a id="more"></a>
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=31246600&auto=1&height=66"></iframe>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo mkdir -p /etc/docker</span><br><span class="line">sudo tee /etc/docker/daemon.json &lt;&lt;-'EOF'</span><br><span class="line">&#123;</span><br><span class="line">"registry-mirrors": ["https://o4habk6k.mirror.aliyuncs.com"]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>docker</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>docker安装</title>
     <url>/2019/01/08/docker%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<h3 id="Docker-要求-CentOS-系统的内核版本高于-3-10-，查看本页面的前提条件来验证你的CentOS-版本是否支持-Docker-。"><a href="#Docker-要求-CentOS-系统的内核版本高于-3-10-，查看本页面的前提条件来验证你的CentOS-版本是否支持-Docker-。" class="headerlink" title="Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。"></a>Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。</h3> <a id="more"></a>
@@ -35,6 +24,17 @@
 
 
 ]]></content>
+      <tags>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>docker修镜像仓库为阿里镜像</title>
+    <url>/2019/01/08/docker%E4%BF%AE%E6%94%B9%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<h3 id="docker修镜像仓库为阿里镜像仓库为阿里镜像"><a href="#docker修镜像仓库为阿里镜像仓库为阿里镜像" class="headerlink" title="docker修镜像仓库为阿里镜像仓库为阿里镜像"></a>docker修镜像仓库为阿里镜像仓库为阿里镜像</h3><h3 id="1-配置镜像加速器"><a href="#1-配置镜像加速器" class="headerlink" title="1. 配置镜像加速器"></a>1. 配置镜像加速器</h3><pre><code>配置镜像加速器针对Docker客户端版本大于 1.10.0 的用户您可以通过修改daemon配置文件/etc/docker/daemon.json来使用加速器</code></pre> <a id="more"></a>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=31246600&auto=1&height=66"></iframe>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo mkdir -p /etc/docker</span><br><span class="line">sudo tee /etc/docker/daemon.json &lt;&lt;-'EOF'</span><br><span class="line">&#123;</span><br><span class="line">"registry-mirrors": ["https://o4habk6k.mirror.aliyuncs.com"]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line">sudo systemctl daemon-reload</span><br><span class="line">sudo systemctl restart docker</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>docker</tag>
       </tags>
