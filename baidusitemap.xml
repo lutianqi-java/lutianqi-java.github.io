@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://lutianqi-java.github.io/2020/05/01/idea%E6%B1%89%E5%8C%96/</loc>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
+    <loc>https://lutianqi-java.github.io/2020/04/30/SpringAop/</loc>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
     <loc>https://lutianqi-java.github.io/2020/04/26/spring/</loc>
-    <lastmod>2020-04-27</lastmod>
+    <lastmod>2020-05-01</lastmod>
+  </url>  <url>
+    <loc>https://lutianqi-java.github.io/2020/04/21/myabtis/</loc>
+    <lastmod>2020-04-22</lastmod>
   </url>  <url>
     <loc>https://lutianqi-java.github.io/2020/04/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2020-04-20</lastmod>
