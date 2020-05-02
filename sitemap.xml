@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lutianqi-java.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-05-02T09:33:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lutianqi-java.github.io/2020/05/01/idea%E6%B1%89%E5%8C%96/</loc>
     
     <lastmod>2020-05-01T15:34:56.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://lutianqi-java.github.io/2020/04/21/myabtis/</loc>
     
     <lastmod>2020-04-22T07:33:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lutianqi-java.github.io/tags/index.html</loc>
-    
-    <lastmod>2020-04-21T16:54:48.000Z</lastmod>
     
   </url>
   
